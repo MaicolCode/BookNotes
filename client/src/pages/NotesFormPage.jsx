@@ -6,8 +6,6 @@ export default function NotesFormPage() {
   const { addNote, modifyNote, errors, viewNote } = useNotes()
 
   const params = useParams()
-  console.log(params)
-
   const [note, setNote] = useState({})
   const navigate = useNavigate()
 
